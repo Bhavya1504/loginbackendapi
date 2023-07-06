@@ -1,0 +1,60 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 20px;
+    text-align: center;
+    background-size: cover;
+    color: rgb(61, 8, 160);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #db0e0e;
+    margin-bottom: 50px;
+    text-shadow: 3px 3px 5px rgb(215, 226, 63);
+    font-size: 40px;
+  }
+  
+  form {
+    margin-bottom: 80px;
+    color: rgb(0, 2, 3);
+  }
+  
+  label {
+    display: inline-block;
+    width: 120px;
+    text-align: right;
+    margin-right: 10px;
+  }
+  
+  input,
+  select,
+  button {
+    margin: 5px;
+    border: 2px solid #b44519;
+    padding: 10px;
+    color: #b44519;
+    background-color: rgb(209, 213, 218);
+    width: 200px;
+  }
+  
+  input[type="submit"],
+  button {
+    cursor: pointer;
+    width: auto; /* Set width to auto for the login button */
+  }
+  
+  #productList {
+    border: 2px solid #010313;
+    padding: 10px;
+    background-color: rgb(7, 56, 99);
+    color: #0a1cc2;
+  }
+  
+  .error {
+    color: #db0e0e;
+  }
+  
+  .success {
+    color: #42b72a;
+  }
+  
